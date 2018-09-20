@@ -16,7 +16,7 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" role="application">
       <div id="map"></div>
     </section>
     <section>
@@ -25,9 +25,11 @@
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
+        <label for="neighborhoods-select">Neighborhood List</label>
         <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
+        <label for="cuisines-select">Cuisine List</label>
       </div>
       <ul id="restaurants-list"></ul>
     </section>
