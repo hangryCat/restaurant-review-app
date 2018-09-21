@@ -1,0 +1,26 @@
+{
+  "name": "mws-restaurant-stage-1",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangryCat/restaurant-review-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hangryCat/restaurant-review-app/issues"
+  },
+  "homepage": "https://github.com/hangryCat/restaurant-review-app#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
