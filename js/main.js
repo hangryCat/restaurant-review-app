@@ -1,3 +1,15 @@
+// This checks to see if the broswer supports service workers or not
+// If it does, then the register method with a string file url will be called
+  // The path in the register method has to be the same as the service worker js file
+// If an error occurs, the catch method is used and it will print an error message
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+  .register('service-worker.js')
+  .catch(function(err) {
+    console.error(err);
+  });
+}
+
 let restaurants,
   neighborhoods,
   cuisines
